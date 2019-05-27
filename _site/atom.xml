@@ -4,7 +4,7 @@
  <title>I Miss Cover Flow</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-05-25T01:35:57+08:00</updated>
+ <updated>2019-05-27T23:12:48+08:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Kevin Gu</name>
@@ -13,13 +13,70 @@
 
  
  <entry>
+   <title>#闲话三两句#</title>
+   <link href="http://localhost:4000/2019/05/27/%E9%97%B2%E8%AF%9D%E4%B8%89%E4%B8%A4%E5%8F%A5/"/>
+   <updated>2019-05-27T00:00:00+08:00</updated>
+   <id>http://localhost:4000/2019/05/27/#闲话三两句#</id>
+   <content type="html">&lt;p&gt;用 Jekyll 来生成这篇网站的 Post，不可避免的要用到 Markdown。Markdown 从 John Gruber &lt;a href=&quot;https://daringfireball.net/projects/markdown/&quot;&gt;提出&lt;/a&gt;到现在有好多种 style，&lt;a href=&quot;https://github.github.com/gfm/&quot;&gt;GFM&lt;/a&gt;(GitHub Flavored Markdown) 之类的，越发的感觉「你 Markdown 用哪种标准」很有「你缩进用 Space 还是 Tab」的感觉。&lt;/p&gt;
+
+&lt;p&gt;//&lt;/p&gt;
+
+&lt;p&gt;大橋トリオ (Ohashi Trio) 的&lt;a href=&quot;http://music.163.com/song?id=22781806&amp;amp;userid=125565879&quot;&gt;「RAINYDAY」&lt;/a&gt;，从去年上海看他的 livehouse 之前到现在一直都没有人上传歌词，抽空自己做了。即使这是一首不包含任何敏感内容的100%网易云的审核速度慢的诡异（原文歌词审核了 emmm 也就四天吧！）。且根本没有提供第一方工具去打 lrc 歌词的时间点，我用的是&lt;a href=&quot;[https://lrc-maker.github.io](https://lrc-maker.github.io/)&quot;&gt;歌词滚动姬&lt;/a&gt;。意外的顺手。看着自己做的歌词出现在 LyricsX 上还挺奇怪的感觉。&lt;/p&gt;
+
+&lt;p&gt;//&lt;/p&gt;
+
+&lt;p&gt;任正非的访谈&lt;a href=&quot;https://www.tmtpost.com/3958628.html&quot;&gt;实录&lt;/a&gt;，一反余承东和华为消费类产品部门给人的不良印象。非常有大将之风，完全把华为的发展历程和与供应链、竞争对手的关系放在全球化的语境中讨论。强调对民粹话术反对的时候给自家技术树的完整发展给出蓝图。我不记得是哪个媒体的标题给他的回答贴上了类似当代公知的 tag，还挺酷。王跃琨离开 FView 后的第一支评测也出炉了，主角是华为 P30 Pro，特别棒。 另外给彭总道个歉…&lt;a href=&quot;https://www.youtube.com/watch?v=EH3B38cZjJE&amp;amp;feature=youtu.be&quot;&gt;YouTube 4K:&lt;/a&gt;
+(偏个题，大家有没有经此一役 YouTube 上科技 KOL 们终于不把 Huawei 发成 Wah-wei 的音了，有几个甚至声调还挺地道的…&lt;/p&gt;
+
+&lt;p&gt;//&lt;/p&gt;
+
+&lt;p&gt;WWDC 2019 还有八天开幕。希望 iOS 能给大尺寸和 OLED 屏的 iPhone 优化一下，iPad 文件管理开放一点，顺手再提高一下自家服务的稳定性。今天出恭时手机不在身边，Series 1 的表突然自己重启了，重启到一半还亮着白苹果的时候开始电话振动，急死人。watchOS 6 给劲一点绝对换 new-design 的手表了。macOS 从下一代起也要取消对 32-bit 的支持。甚至 Mojave 就开始抛弃 OpenCL/OpenGL。最惨不过 CS:GO for Mac 玩家，不仅 Steam 还没更新 64 位应用，游戏本身还是用 OpenGL 写的，大写的惨。&lt;/p&gt;
+
+&lt;p&gt;//&lt;/p&gt;
+
+&lt;p&gt;中國的電子音樂、饒舌都上過綜藝節目了。終於爱奇艺的自制综艺「乐队的夏天」也上了。北方公园的&lt;a href=&quot;https://www.weibo.com/ttarticle/p/show?id=2309404375958353223833#_0&quot;&gt;长文&lt;/a&gt;写的非常好，我就不鹦鹉学舌了。三十一只乐队的阵容几乎就是我高中时期 iPod 里的神仙们出来互相打架。说打架可能不恰当，不像别的综艺节目的选手，这些老炮儿们其实都互相认识，也就等于换个地方凑一块儿玩。第一集下来，盘尼西林倒是黑转路人，也被宇宙人的贝斯手方Q实力圈粉。气氛很好，比看什么即刻电音舒服多了。&lt;/p&gt;
+
+&lt;p&gt;//&lt;/p&gt;
+
+&lt;p&gt;将近一年之后把狂野飙车 9 重新下载了回来，破烂游戏挂了全局梯子依然网络表现感人。Max 功耗瞬间跑满那叫一个热。以前 touch 4 什么的一路烫过来也不会有什么感觉，今年这手机不知道为什么特别让我对热量有感知。Max 的信号也的确是不行。一个手机信号不好，一个电脑键盘不好，这都什么事？苹果偏偏把这两样凑齐活了，我很受伤…&lt;/p&gt;
+
+&lt;p&gt;//&lt;/p&gt;
+
+&lt;p&gt;用一个 Tampermonkey 的插件刷超星的网课，还以为自己掌握了核心科技，彻底翻车…偷懒还是不得行啊。结果就是要多蹉跎一学期的时间来弥补此次过失。&lt;/p&gt;
+
+&lt;p&gt;//&lt;/p&gt;
+
+&lt;p&gt;想给 APS-C 的 Nikon D7000 装个 MB-D11 手柄，四舍五入约等于换了个全幅机(大雾&lt;/p&gt;
+
+&lt;p&gt;//&lt;/p&gt;
+
+&lt;p&gt;找了一圈市面上键位数量割舍合理、蓝牙连线、USB-C 充电且有附送 Mac 键帽/无刻印的机械键盘真的不多，其中价格合适的也只有 iQunix F96(如果有更好的选择欢迎私信我救救孩子的花呗)。勤写博客的话，可以逼迫自己早日痛下决心换个机械键盘，或者干脆把 MacBook Pro 2018 的键盘干坏换个新的。结果都还挺好的。&lt;/p&gt;
+
+&lt;p&gt;//&lt;/p&gt;
+
+&lt;p&gt;彩虹的&lt;a href=&quot;https://open.spotify.com/album/2O1ie99FOKQkg1zeuvBBwZ?si=yo85QXDLR4u0llJVtAgtSw&quot;&gt;白马村游记&lt;/a&gt;。一共七首加一首 bonus，之前只泛泛的听过「七之一：榕樹」。昨天晚上對著歌詞聽了一遍，几欲落泪，听到「七之七：村口迎佛」的時候完全忍不住哭了出來。金承志说：「我要写一个作品，让听众听完了，会心痛到说不出话来。」第一遍没看歌词就能感受到的弥漫出来的民国气息，到后面几首的美好气氛，最后村口迎佛的最后完全的感情爆发。那是一种包裹在力量中卻穿越时空而來的虛無感和夢醒的空虛。我的乐理知识很差，依然能感受到白马村游记单首作品结构的好，整张专辑的叙事结构更是出色。&lt;/p&gt;
+
+&lt;p&gt;//&lt;/p&gt;
+
+&lt;p&gt;六月院线好像还行。真正期待的电影都是动画，哆啦A梦和千与千寻。好像龙猫内地重映也就是几个月前的事情，有种文艺繁荣的错觉。&lt;/p&gt;
+
+&lt;p&gt;//&lt;/p&gt;
+
+&lt;p&gt;連睡了十四個小時，本來就有頸椎病，這下更加難收。於是把電腦用一種 homebrew 的方式墊高了。（寫這條只是為了試一下圖床怎麼樣了
+&lt;img src=&quot;http://wx1.sinaimg.cn/large/6d4c710cly1g3g9px7he8j218z0u0kjl.jpg&quot; alt=&quot;macbook elevated&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Formula One：飆速求生</title>
    <link href="http://localhost:4000/2019/05/25/formula-one-drive-to-suivive/"/>
    <updated>2019-05-25T00:00:00+08:00</updated>
    <id>http://localhost:4000/2019/05/25/formula-one-drive-to-suivive</id>
-   <content type="html">&lt;p&gt;偶尔搜到 Netflix 的原创剧集&lt;a href=&quot;https://www.netflix.com/title/80204890&quot;&gt;「Formula One：飆速求生」&lt;/a&gt;，以 2018 赛季一级方程式大奖赛为素材。第一集开了个头，立刻知道它的好，却被种种琐事拖住时间，搁置在片单列表一隅。不仅剧没时间看，甚至 Netflix 升级了 UHD 的 Plan 都没有机会打开看几眼主页。
-&lt;img src=&quot;http://wx2.sinaimg.cn/large/6d4c710cly1g3cxaxrapkj22k40u0ax6.jpg&quot; alt=&quot;netflix profile&quot; /&gt;
-今天却饶有兴味地端坐电脑前看完了一季的全部十集，全程没怎么按快进。中途按捺不住 Steam 下载了 F1 2017 跑了两圈回来继续看剩下的剧集。看完感叹我非常信赖的 Netflix 推荐算法竟然没有猜出我 100% 是此剧的目标观众，真是好险！还好，除了算法还有缘分能决定我看到什么剧。&lt;/p&gt;
+   <content type="html">&lt;p&gt;偶尔搜到 Netflix 的原创剧集&lt;a href=&quot;https://www.netflix.com/title/80204890&quot;&gt;「Formula One：飆速求生」&lt;/a&gt;，以 2018 赛季一级方程式大奖赛为素材。第一集开了个头，立刻知道它的好，却被种种琐事拖住时间，搁置在片单列表一隅。不仅剧没时间看，甚至 Netflix 升级了 UHD 的 Plan 都没有机会打开看几眼主页。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://wx2.sinaimg.cn/large/6d4c710cly1g3cxaxrapkj22k40u0ax6.jpg&quot; alt=&quot;netflix profile&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;今天却饶有兴味地端坐电脑前看完了一季的全部十集，全程没怎么按快进。中途按捺不住 Steam 下载了 F1 2017 跑了两圈回来继续看剩下的剧集。看完感叹我非常信赖的 Netflix 推荐算法竟然没有猜出我 100% 是此剧的目标观众，真是好险！还好，除了算法还有缘分能决定我看到什么剧。&lt;/p&gt;
 
 &lt;p&gt;说回 F1 赛事本身，好像 CCTV 5 近年很少转播 F1 赛事了。一直说着要去看中国大奖赛(我极限运动的确很讨厌上赛道的大直道无脑互尬)但也没真的动身前往观战。F1当之无愧我国群众基础最薄弱的运动之一。自诩赛车爱好者(yes i’m a petrolhead)如我，甚至没意识到 F1 2018 赛季把 logo 都改了。&lt;/p&gt;
 
@@ -29,11 +86,15 @@
 
 &lt;p&gt;除开这些节外生枝，所有车队和车手的目标都只有一个：登上领奖台。必须夸赞 Netflix 剧集的策划，剧名「飙速求生」(Drive to Survive) 显得无比真实，却又透出一丝丝的残酷和宿命感。剧集一共有十集，据传 Netflix 并没有能拿到头牌车队(法拉利和奔驰)的拍摄授权。歪打正着的是，虽然人人有机会，且人人都面临着巨大的压力和随时可能出现的难题。难以逃避的事实是 F1 的领奖台上永远有那么几张面孔（虽然这并不影响 F1 的观赏性），强队高手们，比如汉密尔顿和维特尔，永远很快很强大。所以他们的 &lt;em&gt;Survival&lt;/em&gt; 压力没有中间车队那么大。Netflix 也以此为每一集找到了贴近主题却又角度不同的切入点。看完实在令人叹服。&lt;/p&gt;
 
-&lt;p&gt;F1 实在是太快了，赛道内外的一切都是 300+ km/h 的节奏。Netflix 拍摄手法让观众可以放心的让情绪随着镜头流淌：这就是去年才发生的真人真事啊！但有时我刚刚被导演渲染的情绪打动，代入车手的喜悦和无奈里，情况就会发生转机。非虚构的赛事，却会有大到难以想象的不确定性。Haas 车队连续两次进站换胎出现了同样的失误，直接退出大奖赛。&lt;em&gt;火星救援&lt;/em&gt; 也不敢这么把人往死里设计的，命运的无情冠绝天下。
-&lt;img src=&quot;http://wx3.sinaimg.cn/large/6d4c710cly1g3cxcwmmhej21c00u04qp.jpg&quot; alt=&quot;subtitle&quot; /&gt;
-但其实最让人感同身受的就是这种无情又无奈的宿命感。F1，或者说所有的极限运动，都像是无限放大与浓缩人可能遇到的极端情况。要随时准备接受现状，调整状态。作为观众，也可以在起起伏伏的事件中，获得参与感，并很笃定地说「这样的阵仗都见识过了，还有什么好畏惧的呢」。&lt;/p&gt;
+&lt;p&gt;F1 实在是太快了，赛道内外的一切都是 300+ km/h 的节奏。Netflix 拍摄手法让观众可以放心的让情绪随着镜头流淌：这就是去年才发生的真人真事啊！但有时我刚刚被导演渲染的情绪打动，代入车手的喜悦和无奈里，情况就会发生转机。非虚构的赛事，却会有大到难以想象的不确定性。Haas 车队连续两次进站换胎出现了同样的失误，直接退出大奖赛。&lt;em&gt;火星救援&lt;/em&gt; 也不敢这么把人往死里设计的，命运的无情冠绝天下。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://wx3.sinaimg.cn/large/6d4c710cly1g3cxcwmmhej21c00u04qp.jpg&quot; alt=&quot;subtitle&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;但其实最让人感同身受的就是这种无情又无奈的宿命感。F1，或者说所有的极限运动，都像是无限放大与浓缩人可能遇到的极端情况。要随时准备接受现状，调整状态。作为观众，也可以在起起伏伏的事件中，获得参与感，并很笃定地说「这样的阵仗都见识过了，还有什么好畏惧的呢」。&lt;/p&gt;
 
 &lt;p&gt;所以，赛场内外，Drive fucking wild, to SURVIVE。&lt;/p&gt;
+
+&lt;p&gt;p.s. 明天晚上九點，北京時間五月廿六日晚上九点十分有 F1 2019 賽季摩纳哥大獎賽。Monte Carlo，這是我最喜歡的賽道。小时候在米老鼠的漫画里就看见唐老鸭开过这条道。&lt;/p&gt;
 </content>
  </entry>
  
