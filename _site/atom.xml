@@ -4,13 +4,31 @@
  <title>I Miss Cover Flow</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-05-28T16:04:48+08:00</updated>
+ <updated>2019-06-07T17:39:44+08:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Kevin Gu</name>
    <email>wxkevingu@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>虽然我也曾在江苏卷语文考场上揪心过...</title>
+   <link href="http://localhost:4000/2019/06/07/%E8%99%BD%E7%84%B6%E6%88%91%E4%B9%9F%E5%9C%A8%E6%B1%9F%E8%8B%8F%E5%8D%B7%E8%AF%AD%E6%96%87%E8%80%83%E5%9C%BA%E4%B8%8A%E6%8F%AA%E5%BF%83%E8%BF%87/"/>
+   <updated>2019-06-07T00:00:00+08:00</updated>
+   <id>http://localhost:4000/2019/06/07/虽然我也在江苏卷语文考场上揪心过</id>
+   <content type="html">&lt;p&gt;会很难记起彼时彼刻的心绪，很难记得到底是为了什么要去从二十个字题目构筑的一方世界里去训练自己把读完题后发散到各处的思维收拢聚合，找到一个切口，反反复复的磨八百个方块字，把立意立起来，在自成一派的条理中自圆其说，尝试说的有新意又不为赋新词强说愁。两年过去了，真的很难再记起。&lt;/p&gt;
+
+&lt;p&gt;江苏卷语文第二十题背后的事实是：作文不是和老师学的，作文也不是遵谁人之嘱就可以永远灵光乍现的。作文是表达，是相由心生。永远感谢我从小到大的语文老师（几乎都是我的班主任），让我的「心」不至于很好看，起码有分辨美丑的能力。&lt;/p&gt;
+
+&lt;p&gt;江苏卷合流在即，观中原诸侯，可知「作文」已矣哉。谓之作文？谓之作伪。吾不愿作伪，今亦不能作文。至此三百三十三字，不复往日荣光，佶屈聱牙，不能谓之文。&lt;/p&gt;
+
+&lt;p&gt;活着的时候，别人的人格在社会学意义上跪着。要死了，才看见别人跪着，仿佛在此间也未曾活过。&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;风气日紧&lt;/em&gt;，我终于想起，我当时想的是何物。「能在此自由挥洒，不拘一格，终是一幸事」
+&lt;!--excerpt--&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>#闲话三两句#</title>
@@ -28,9 +46,9 @@
 &lt;p&gt;任正非的访谈&lt;a href=&quot;https://www.tmtpost.com/3958628.html&quot;&gt;实录&lt;/a&gt;，一反余承东和华为消费类产品部门给人的不良印象。非常有大将之风，完全把华为的发展历程和与供应链、竞争对手的关系放在全球化的语境中讨论。强调对民粹话术反对的时候给自家技术树的完整发展给出蓝图。我不记得是哪个媒体的标题给他的回答贴上了类似当代公知的 tag，还挺酷。王跃琨离开 FView 后的第一支评测也出炉了，主角是华为 P30 Pro，特别棒。 另外给彭总道个歉…&lt;a href=&quot;https://www.youtube.com/watch?v=EH3B38cZjJE&amp;amp;feature=youtu.be&quot;&gt;YouTube 4K:&lt;/a&gt;
 (偏个题，大家有没有经此一役 YouTube 上科技 KOL 们终于不把 Huawei 发成 Wah-wei 的音了，有几个甚至声调还挺地道的…&lt;/p&gt;
 
-&lt;p&gt;//&lt;/p&gt;
-
-&lt;p&gt;WWDC 2019 还有八天开幕。希望 iOS 能给大尺寸和 OLED 屏的 iPhone 优化一下，iPad 文件管理开放一点，顺手再提高一下自家服务的稳定性。今天出恭时手机不在身边，Series 1 的表突然自己重启了，重启到一半还亮着白苹果的时候开始电话振动，急死人。watchOS 6 给劲一点绝对换 new-design 的手表了。macOS 从下一代起也要取消对 32-bit 的支持。甚至 Mojave 就开始抛弃 OpenCL/OpenGL。最惨不过 CS:GO for Mac 玩家，不仅 Steam 还没更新 64 位应用，游戏本身还是用 OpenGL 写的，大写的惨。&lt;/p&gt;
+&lt;p&gt;//
+&lt;!--excerpt--&gt;
+WWDC 2019 还有八天开幕。希望 iOS 能给大尺寸和 OLED 屏的 iPhone 优化一下，iPad 文件管理开放一点，顺手再提高一下自家服务的稳定性。今天出恭时手机不在身边，Series 1 的表突然自己重启了，重启到一半还亮着白苹果的时候开始电话振动，急死人。watchOS 6 给劲一点绝对换 new-design 的手表了。macOS 从下一代起也要取消对 32-bit 的支持。甚至 Mojave 就开始抛弃 OpenCL/OpenGL。最惨不过 CS:GO for Mac 玩家，不仅 Steam 还没更新 64 位应用，游戏本身还是用 OpenGL 写的，大写的惨。&lt;/p&gt;
 
 &lt;p&gt;//&lt;/p&gt;
 
