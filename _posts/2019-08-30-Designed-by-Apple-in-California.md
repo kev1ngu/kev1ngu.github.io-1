@@ -12,13 +12,13 @@ title: Designed by Apple in California, An Unbox
 
 
 
+
+
 ![](https://tva1.sinaimg.cn/large/006y8mN6gy1g6hqk55vslj319a0u0dm6.jpg)
 
 <!--excerpt-->
 
-打開順豐的快遞包裹，就可以看見 Apple 的白色紙盒包裝。這居然不是最後一層包裝。
-
-![](/Users/kev1ngu/Downloads/Designed by Apple in California/Lightroom catalog/轉存/KEV_1460.jpg)
+打開順豐的快遞包裹，就可以看見 Apple 的白色紙盒包裝。這居然不是最後一層包裝。![](/Users/kev1ngu/Downloads/Designed by Apple in California/Lightroom catalog/轉存/KEV_1460.jpg)
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6gy1g6hqqbhnf7j319b0u0he2.jpg)
 
@@ -28,7 +28,7 @@ title: Designed by Apple in California, An Unbox
 
 
 
-一層層的精緻包裝會在無形間提升對書本體的期待，拆 Designed by Apple 能獲得比 unbox 任何一間 Apple 產品都大的儀式感。
+一層層的精緻包裝會在無形間提升對書本體的期待，拆 Designed by Apple 能獲得比 unbox 任何一件 Apple 產品都大的儀式感。
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6gy1g6hr2w8tbvj319b0u0x6v.jpg)
 
@@ -37,6 +37,10 @@ title: Designed by Apple in California, An Unbox
 
 
 ### *Dedicated to Steve Jobs*
+
+
+
+
 
 
 
@@ -54,7 +58,13 @@ title: Designed by Apple in California, An Unbox
 
 
 
+
+
 ### *Coda*
+
+
+
+
 
 HK$1,588，對於一本畫冊，尤其是這種品質的畫冊來說應該不算貴。但對於當時的我來說完全不是一個小數目。此書現已售罄，謝謝一咬牙購入它的自己，謝謝促成我購得此書的朋友，謝謝 Apple。
 
