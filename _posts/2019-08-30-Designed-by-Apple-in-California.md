@@ -7,7 +7,6 @@ title: Designed by Apple in California, An Unbox
 
 <p class="message">《Designed by Apple in California》透過 450 張我們的產品及其製造過程的相片，記錄了 Apple 20 年來的設計。這段視覺歷史，從 iMac 跨越至 Apple Pencil，闡述了創新材料及技術，讓每個細節真確呈現。這本精裝書冊，選用了經特別研磨的德國紙張，配上鍍啞銀邊，以八色分色及低鬼影油墨印製，編製歷時八年多，細意精心之處，與當中展示的產品同出一轍。Apple 一貫在設計、工程及製造上的一絲不苟，我們以此書致敬，亦以此書為證。</p>
 
-<br>
 
 
 ### *The Unbox*
@@ -37,14 +36,9 @@ title: Designed by Apple in California, An Unbox
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6gy1g6hr4zojisj319b0u0u14.jpg)
 
-
-
 <br>
 
-
-
 ### *Dedicated to Steve Jobs*
-
 
 <br>
 
@@ -63,6 +57,8 @@ title: Designed by Apple in California, An Unbox
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6gy1g6hrfe9tj6j31400u0e87.jpg)
 
+![](https://tva1.sinaimg.cn/large/006y8mN6gy1g6hsyapkexj319b0u0npl.jpg)
+
 
 
 
@@ -71,12 +67,7 @@ title: Designed by Apple in California, An Unbox
 
 ### *Coda*
 
-
 <br><br>
-
-
-
-
 
 
 HK$1,588，對於一本畫冊，尤其是這種品質的畫冊來說應該不算貴。但對於當時的我來說完全不是一個小數目。此書現已售罄，謝謝一咬牙購入它的自己，謝謝促成我購得此書的朋友，謝謝 Apple。
