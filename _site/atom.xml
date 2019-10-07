@@ -4,13 +4,127 @@
  <title>I Miss Cover Flow</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-06-17T00:37:27+08:00</updated>
+ <updated>2019-10-07T15:40:12+08:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Kevin Gu</name>
    <email>wxkevingu@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>The Apple Arcade Trial</title>
+   <link href="http://localhost:4000/2019/10/06/apple-arcade-trial/"/>
+   <updated>2019-10-06T00:00:00+08:00</updated>
+   <id>http://localhost:4000/2019/10/06/apple-arcade-trial</id>
+   <content type="html">&lt;p&gt;Apple Newsroom 如是宣传自家的订阅制游戏服务 Apple Arcade：&lt;/p&gt;
+
+&lt;p class=&quot;message&quot;&gt;Apple Arcade invites you to play something extraordinary. Groundbreaking Game Subscription Service Launches on the App Store for $4.99 per Month on September 19&lt;/p&gt;
+&lt;p&gt;财报里「服务」营收占比见长，不代表苹果已经完成了在服务类目的工作——甚至还没有完全结束布局。算上十一月即将上线的 Apple TV+，苹果今年在订阅制服务上投入了巨大的精力。豪华阵容配劲爆定价，加上巨量的设备基数。苹果坚定了信念要把别人碗里的饭抢来吃一口。我在九月十九日 Arcade 在 iOS 13 beta 系统上线的第一刻（让大力宣传的服务抢跑配套的正式版 iOS，这也是一个诡异的操作）开始了为期一月的免费试用（正常价格为 $4.99 / 月）。试用期业已过半，是时候谈谈了。&lt;br /&gt;现实情况是：不管是音乐串流、自制剧集还是游戏，想再次复现 iTunes Store 世纪初垄断市场的局面，几乎已不可能。苹果背靠与唱片公司的长期合作关系和自身「音乐 DNA」自信打造出来的 Apple Music 也没能盖过 Spotify 的势头。主打的一次付费无内购畅玩模式当然很好，iOS/iPadOS 13 对手柄的支持也聪明，可你随便问一个玩家为什么要买某主机，答案一定是某某游戏。作为游戏界的新人，面对「御三家」的地位、硬核玩家的不屑和自己在题材上的偏执，Apple Arcade 想要证明自己非常困难。&lt;br /&gt;&lt;/p&gt;
+
+&lt;!--excerpt--&gt;
+
+&lt;p&gt;我多希望这时候能话锋一转，开始吹 Arcade 的惊艳游玩阵容。然而 Arcade 的确没有什么拿的出手的内容，这直接导致了它从第一天起就多半差评。梅林在 Twitter 上讥讽它是 4399 HD Remastered 多合一。更有人质疑加州人在 N64 世代是不是没搞明白什么样的体验能配叫做「街机」。&lt;br /&gt;&lt;br /&gt;当然是一定要自己去试试的。况且画面精美、制作精良还本地化完整的游戏，就算内容差也不可能差到不足以打发时间吧。政治课上我迅速浏览了几篇什么值得玩的推介文章之后下载了几款游戏。macOS Catalina 短时间内不会去升级，体验的设备只有 iPhone, iPad 和 Apple TV。叮！体验割裂感从这里就开始了，在 Apple TV 上，Arcade 的入口不在 App Store 而是一个单独的 Arcade app 里。而 iOS/iPadOS 上 Arcade 寄生于 App Store 的一个栏目里。嗯……&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;img src=&quot;https://tva1.sinaimg.cn/large/006y8mN6gy1g7pnjurbfzj30u014rdlb.jpg&quot; alt=&quot;IMG_1867&quot; /&gt;&lt;br /&gt;在对约十款游戏进行平均约十分钟的试玩之后，我意识到了自己的幼稚。4399 们起码还堪玩，像「Speed Demons」这种可能还不如 S60 时代 gameloft 的游戏。「Overland」几乎是为了废土而废土。「Skate City」无聊程度可以和 iPad 初代刚上市时 App Store 内的游戏一较高下。玩过塞尔达的人应该也不会想去玩一个精致的山寨版本（「Oceanhorn 2」）。政治课上我终于不敌睡意，选择了更有意思的睡觉。&lt;br /&gt;也不完全都是垃圾。「Sayonara Wild Hearts」画风美极了，音乐节奏也很有代入感。出品过纪念碑谷的工作室 ustwo 打造的「Assemble」有好的故事。「Mini Metro」工作室出品的「Mini Motorways」也是同类游戏中出类拔萃者。可 Sayonara 并非独占，剩下三家大厂的主机上均可游玩。Assemble 和 Mini Motorways 虽然题材不同，问题却有共性：譬如 Assemble 和纪念碑谷都很好，但如果「好」得方向和程度都差不多，为什么我要单独开一个 4.99 美元每月的服务来玩？想要玩好游戏的人不会在乎是每月 4.99 还是 9.99（PSN），只想借游戏打发时间的人面前有腾讯游戏倾情提供的一众选择。&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;九月十一日苹果发布会进行时我发了这样一条 Tweet：「Apple Arcade 如期上线。iPad Pro 如今有了 USB-C（扩展更大尺寸的屏幕），有了官方的 PS4/XBOX 手柄支持。那么，离一台真正的游戏主机还有多远？」Arcade 支持全平台，让自家设备普遍遭遇的困境变得更明显。 Arcade 或许能在 iPhone 上获得一定成功，到了 iPad Pro 和 Apple TV 这个尺度人们就会开始想玩一些能见血的游戏了。Mac 的现状就更让人疯狂，这时候带着一种推出 Arcade 就可以解决「Mac 不适合玩游戏」问题的心态，应该会死得很惨。&lt;/p&gt;
+
+&lt;p&gt;所以我退订了 Apple Arcade，在试用期结束之前。并祈祷 Apple TV+ 第一批剧不要太难看。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>深深一湾深圳湾，有飞机场也飞不过。</title>
+   <link href="http://localhost:4000/2019/09/20/the-strait-you-cannot-cross-even-with-an-airport/"/>
+   <updated>2019-09-20T00:00:00+08:00</updated>
+   <id>http://localhost:4000/2019/09/20/the-strait-you-cannot-cross-even-with-an-airport</id>
+   <content type="html">&lt;p class=&quot;message&quot;&gt;「我们永久地失去mla。失去左翼青年穷苦末路的小清新爱情，失去社会底层怅然若失的忧伤嫖客。失去九龙公园的游泳池和土瓜湾情歌。失去中学的暑假，失去牛头角青年，麦记朱古力醉酒的一夜。最终，我们将失去所有的城市诗人和虚无缥缈的都市传说。」&lt;br /&gt; 
+「评论里部分人大概也不知道林阿P说过“资本主义收皮”，只会因一个他们无法理解的行为去高举口号去打倒。算了，我们都有光明的未来。」&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;以上兩條均為香港獨立（此處「獨立」當然指的是 indie 而非政治上的獨立）樂隊 my little airport 九月十九日凌晨在大陸被封禁後，我與新浪微博所見。按照慣常的操作此處我應該把 credit 給到。然而此刻去索驥，言論卻苟且到在私下輾轉，原 po 像從未出現過，所剩下的出聲孔裡透出無法理解的失望與無可奈何的憤怒。&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;我其實很驚訝到現在我們還在討論空間裡質疑自己和他人，藝術和政治到底應不應該分開。藝術在政治的社會中存在，藝術家也是人（a.k.a 社會動物）。以藝術為工具反思社會 &amp;amp; 表達政治傾向，歷來已久。李志政治訴求的表達被噤聲值得讚頌，Bob Dylan 反思社會現狀的作品（如「Workingman‘s Blues #2」）能被認定為偉大的音樂，而 mla 部分作品中流露出來的傾向就會引發這種驚慌失措地、根本性的質疑？雙重標準玩得確實很有一手。对社会的反思，或者说表達的傾向與「民意」相同則稱其具有「藝術家的良心」，相左就戴上一個惹眼的帽子並當眾遊街，不可笑吗？藝術家不是你家的電視遙控器。&lt;/p&gt;
+
+&lt;!--excerpt--&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;相比於那些極力掩蓋國歌事件的聽眾，我願意大大方方地承認。左派青年林阿 p 不滿現狀，發展出這種對舊日的依戀情節。但我們也都聽他唱過「我等在街上籌旗/呼喊資本主義收皮」（收皮在粵語指閉嘴）。左翼青年誰都要屌，誰都逃不過用最難的姿勢被左翼青年屌。我甚至懷疑如果香港重回英國治下，林阿 p 會是第一個開始搖五星紅旗的人。港獨是跑不了的，港獨又是太好用的帽子。在這個上街遊行等於港獨的詭異時刻，港獨面前人人平等，誰管你是左翼青年的牢騷還是衝著分裂國家去，所有自由主義精神都可以收皮。不光要叫你收皮，還要把你大變活人。Jijiao Zhang 八月初的时候问我怎么看香港的事。我说，那我写一篇 blog 吧。幾十天一字未动，一是因为事件在不断发展，意想不到的事情在不断出现。但 mla 的事最令我沮喪。沮喪的時候可以聽 mla，排遣沮喪的歌者被封殺帶來的沮喪，又要讓我去聽誰才能釋懷？在這個沮喪的閉環裡，我想不通，我相信那些貼大字報的人們也沒想過去想。下架，刪數字記錄，禁止實體拷貝流通。流媒體平台和淘寶可以在憤怒的樂迷前頂上十分鐘的鍋，這套幹練又流暢的組合拳誰予誰之手你我心知肚明。最终，我们失去「所有的城市诗人和虚无缥缈的都市传说」。但作為時代巨嬰的我們當然是不可能也沒有資格感受這些情緒的。更重要的，不要你覺得即便藝術家宣揚激進政見仍然可以保有選擇性傾聽的權利，我要我覺得港獨苗子就該被連根拔起。&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;想到群體之間的分裂近於不可彌合，感嘆深深的深圳灣我們再也無法飛過。以後若去到九龍公園游泳池，不止弔唁倒閉的 HMV Square，也滿目都是你的歌聲。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Designed by Apple in California, An Unbox</title>
+   <link href="http://localhost:4000/2019/08/30/Designed-by-Apple-in-California/"/>
+   <updated>2019-08-30T00:00:00+08:00</updated>
+   <id>http://localhost:4000/2019/08/30/Designed-by-Apple-in-California</id>
+   <content type="html">&lt;p&gt;去年還不知前年，托朋友在香港買了英文版的小號「Designed by Apple in California」。香港順豐寄到大陸家中，一直沒捨得拆開。
+今天沒忍住，拆了，一睹尊榮。&lt;/p&gt;
+
+&lt;p class=&quot;message&quot;&gt;《Designed by Apple in California》透過 450 張我們的產品及其製造過程的相片，記錄了 Apple 20 年來的設計。這段視覺歷史，從 iMac 跨越至 Apple Pencil，闡述了創新材料及技術，讓每個細節真確呈現。這本精裝書冊，選用了經特別研磨的德國紙張，配上鍍啞銀邊，以八色分色及低鬼影油墨印製，編製歷時八年多，細意精心之處，與當中展示的產品同出一轍。Apple 一貫在設計、工程及製造上的一絲不苟，我們以此書致敬，亦以此書為證。&lt;/p&gt;
+
+&lt;h3 id=&quot;the-unbox&quot;&gt;&lt;em&gt;The Unbox&lt;/em&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://tva1.sinaimg.cn/large/006y8mN6gy1g6hqk55vslj319a0u0dm6.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;!--excerpt--&gt;
+
+&lt;p&gt;打開順豐的快遞包裹，就可以看見 Apple 的白色紙盒包裝。這居然不是最後一層包裝。&lt;img src=&quot;/Users/kev1ngu/Downloads/Designed by Apple in California/Lightroom catalog/轉存/KEV_1460.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://tva1.sinaimg.cn/large/006y8mN6gy1g6hqqbhnf7j319b0u0he2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;這張質感與印刷精細度都極為優秀的紙上面印滿了 Apple 的 iconic design。真是極好的品質，不想讓它有任何破損，小心翼翼的放到一邊。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://tva1.sinaimg.cn/large/006y8mN6gy1g6hqpavpctj319b0u0npm.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;一層層的精緻包裝會在無形間提升對書本體的期待，拆 Designed by Apple 能獲得比 unbox 任何一件 Apple 產品都大的儀式感。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://tva1.sinaimg.cn/large/006y8mN6gy1g6hr2w8tbvj319b0u0x6v.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://tva1.sinaimg.cn/large/006y8mN6gy1g6hr4zojisj319b0u0u14.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;dedicated-to-steve-jobs&quot;&gt;&lt;em&gt;Dedicated to Steve Jobs&lt;/em&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://tva1.sinaimg.cn/large/006y8mN6gy1g6hr8r6o6xj31400u0qva.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;我打心裡知道我不可能忍住不拆，但我完全沒有料到 Jony Ive 會先行一步離開 Apple。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://tva1.sinaimg.cn/large/006y8mN6gy1g6hra5ogewj31400u07wo.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://tva1.sinaimg.cn/large/006y8mN6gy1g6hrexhbdpj319a0u0e86.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://tva1.sinaimg.cn/large/006y8mN6gy1g6hrf4vv0kj30u00u0x6s.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://tva1.sinaimg.cn/large/006y8mN6gy1g6hrfe9tj6j31400u0e87.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://tva1.sinaimg.cn/large/006y8mN6gy1g6hsyapkexj319b0u0npl.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;coda&quot;&gt;&lt;em&gt;Coda&lt;/em&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;HK$1,588，對於一本畫冊，尤其是這種品質的畫冊來說應該不算貴。但對於當時的我來說完全不是一個小數目。此書現已售罄，謝謝一咬牙購入它的自己，謝謝促成我購得此書的朋友，謝謝 Apple。&lt;/p&gt;
+
+&lt;p&gt;什麼是設計？為什麼設計？&lt;/p&gt;
+
+&lt;p&gt;This is the answer.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Fear of fear</title>
