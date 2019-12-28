@@ -4,13 +4,9 @@ title: About
 ---
 
 
-*关于这个小小的网站*
 <br>
-<p class="message">
-  Hey there! I'm Kevin Gu(顾煜文), a CS Sophomore based in Jiangsu Normal University (Wuxi Born) / Reach out for the ultimate simplicity / Internet native / Enthusiast of everything / Non-linear editing / Multi-lingual.
-</p>
 
-
+Hey there! I'm Kevin Gu (Yuwen Gu, 顾煜文), a CS Junior based in Jiangsu Normal University (Wuxi, 无锡 born). Basically I can live up to anyone's expectations of an Internet native (I call them *Internative*).
 
 拖了这么这么多年，blog 终于开张了。
 <br>这是我在互联网上得以喘息的一隅。谢谢来访。  <br>
@@ -23,9 +19,8 @@ blog 起初想起名 B-Side of Kevin Gu，那个名字留给 Telegram Channel �
 <br><br>
 //
 <br>
-I'm on [Twitter](https://twitter.com/kev1ngu) & [新浪微博](https://weibo.com/realkevingu).
+I'm on [Twitter](https://twitter.com/kev1ngu) & [新浪微博](https://weibo.com/realkevingu).<br>
 我另有 [Telegram Channel](https://t.me/theBsideofkk)，日常更新。
-
 
 <br><br>
 *一些技术背景*
@@ -33,12 +28,10 @@ I'm on [Twitter](https://twitter.com/kev1ngu) & [新浪微博](https://weibo.com
 
 * 使用静态网页生成器 [Jekyll](http://jekyllrb.com) 和唤作 [Lanyon](https://github.com/poole/lanyon) 的模板。
 * 托管于 [GitHub Pages](https://pages.github.com)。
-* 主要代码都是靠 [Sublime Text 3](http://sublimetext.com) 编写的。
+* 主要代码都是在 [Sublime Text 3](http://sublimetext.com) 上编写的。
 * 尤其要感谢发明了 [Markdown](https://daringfireball.net/projects/markdown/) 和 [Git](https://git-scm.com/) 的两位先辈，John Gruber & Linus Torvalds.  
 
 <br><br><br>
-Have a nice day.  // 祝你生活愉快。
-<br>
-Kevin Gu（顾煜文）,<br>
-May 2019.
+Have a nice day.  
+May 2019
 
