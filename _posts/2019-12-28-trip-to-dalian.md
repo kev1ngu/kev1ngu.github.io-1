@@ -5,12 +5,14 @@ title: 在大连玩
 
 ---
 
-<head>
-  <meta property="og:url"            
+<head> 
+	<meta property="og:url"            
         content="https://imisscoverflow.xyz/2019/12/28/trip-to-dalian/" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="Trip to Dalian" />
-  <meta property="og:description" content="Trip to Dalian" />
+  <meta property="og:title" content="在大连玩" />
+  <meta property="og:description" content="去得比较突然。期末考试结束的早，无事做。" />
+   <meta property="og:image" 
+     content="https://tvax3.sinaimg.cn/crop.0.0.736.736.180/6d4c710cly8fvce7os979j20kg0kgdgz.jpg" />
 </head>
 
 
