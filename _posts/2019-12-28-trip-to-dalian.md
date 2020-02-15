@@ -40,7 +40,6 @@ title: 在大连玩
 去得比较突然。期末考试结束的早，无事做。早就想去西安，打开飞猪划了一圈，发现去大连的机票含机建才 170。果断抛弃西安。一二年夏天去过一次大连，印象还挺好。冬天看海也好像很有诗意的样子。这是出发前的 tweet，可见当时也并非是全然自在的心情。
 
 <blockquote class="twitter-tweet"><p lang="zh" dir="ltr">过几天去大连看冬天的海。回来就要开始准备考研，上了大学第一次真正为前途惆怅。</p>&mdash; Kevin Gu (@kev1ngu) <a href="https://twitter.com/kev1ngu/status/1207402440342900737?ref_src=twsrc%5Etfw">December 18, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 <!--excerpt--><br>大三了才第一次去徐州的机场。我觉得徐州还是有发展潜力。机场却造这么远，实在是匪夷所思的规划（这或许是去哪都比较便宜的一个原因）。徐州机场里面的商业氛围也很差。过完安检我和同行的朋友激情打赌说里面一定一家连锁快餐都没有，果然言中。机场的位置和环境还是挺重要的，而且就算城市本身发展地差一点，也可以把机场打造成一个对外展示的窗口。从大连机场打滴滴去市中心的住处也才二十多块钱的距离，里面该有的也都有。高下可见。
 
 <img src="https://tva1.sinaimg.cn/large/006tNbRwgy1gacue23nyxj31400u04qu.jpg" alt="IMG_4248"  />
