@@ -4,13 +4,120 @@
  <title>I Miss Cover Flow</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2020-02-15T20:22:15+08:00</updated>
+ <updated>2020-03-23T09:29:13+08:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Kevin Gu</name>
    <email>wxkevingu@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>作为 Mac 游戏容器的 Windows To Go 实践</title>
+   <link href="http://localhost:4000/2020/03/21/wtg-as-mac-game-container/"/>
+   <updated>2020-03-21T00:00:00+08:00</updated>
+   <id>http://localhost:4000/2020/03/21/wtg-as-mac-game-container</id>
+   <content type="html">&lt;p&gt;&lt;br /&gt;这一篇 blog，我给出以解决我个人需求为目的的一种经济游戏方案。&lt;/p&gt;
+
+&lt;p&gt;在某个版本的 macOS Mojave 之后，我的 MacBook Pro 2018 就没法正常启动 CSGO，根据这种&lt;a href=&quot;https://github.com/ValveSoftware/csgo-osx-linux/issues/2171#issuecomment-539123680&quot;&gt;解决方案&lt;/a&gt;修改之后可以进入游戏。但开始对局后依旧会立刻闪退。我的猜想是从 macOS Mojave 开始， &lt;a href=&quot;https://apple.slashdot.org/story/18/06/05/1719205/apple-deprecates-opengl-and-opencl-in-macos-1014-mojave&quot;&gt;Apple 开始抛弃 OpenCL/OpenGL&lt;/a&gt;。&lt;/p&gt;
+
+&lt;!--excerpt--&gt;
+
+&lt;p&gt;这是很让人悲观的。谁不知道主流游戏大厂并不热衷于支持 Mac 平台。但毕竟很偶尔也能在 Mac 上看到一些大 title，我对一些并不要求高性能的游戏的体验产生了幻想。田忌赛马，在能玩 CSGO on macOS 的年代里，能极快地加载地图一直是一件谈资。&lt;/p&gt;
+
+&lt;p&gt;但现在的情况是，我常玩（Steam 200+ 小时）的两款游戏，CSGO 和欧洲卡车模拟 2，这种五百块钱的显卡就能带得动高画质的两款主流游戏。一个无法启动，一个在中画质的夜晚道路上开车灯就能卡到个位数 FPS。我已经不玩 EA、育碧、暴雪或者 Rockstar 的游戏了。已经在两万块的电脑上被迫开中画质了。就这？这真的是可以接受的吗？&lt;/p&gt;
+
+&lt;p&gt;我杀苹果一百遍。游戏是不可能不打的，这是我能想到的解决方案：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;del&gt;砸掉 MacBook Pro&lt;/del&gt;&lt;/p&gt;
+
+    &lt;p&gt;可以私信获得我的支付宝二维码。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;del&gt;去网吧 / 借别人的 PC 玩&lt;/del&gt;&lt;/p&gt;
+
+    &lt;p&gt;放假前我一直是去拿室友的电脑玩。很折腾，很麻烦。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;del&gt;组一台 ≈ 三千元的台式机&lt;/del&gt;&lt;/p&gt;
+
+    &lt;p&gt;很烧钱。而且也没有地方放了。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;del&gt;eGPU&lt;/del&gt;&lt;/p&gt;
+
+    &lt;p&gt;更烧钱。也占地方。傻子才这样搞。这个方案可笑的地方在于本末倒置。上面几种是「如何找一个正常的环境玩游戏」，eGPU 则试图「把 macOS 变成一个正常的环境」。如果你要玩的游戏在 macOS 上可以流畅运行那显然不用费事了。而对于剩下的那些游戏来说，系统局限性和针对性优化过差，才使得硬件性能完全无法发挥出来。换上 Windows 才是解决的唯一办法。如果 Windows 下还不行那么再上 eGPU 还差不多。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Windows To Go (via NVMe SSD)&lt;/p&gt;
+
+    &lt;p&gt;给您说说。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/Windows_To_Go&quot;&gt;Windows To Go&lt;/a&gt;，字面意思，就是一个 On The Go 的 Windows。维基百科说「Mac 不被支持」，这是错的。你完全可以通过一个正常的企业版 Windows 10、&lt;a href=&quot;https://bbs.luobotou.org/thread-761-1-1.html&quot;&gt;萝卜头的 WTG 辅助工具&lt;/a&gt;或者 &lt;a href=&quot;rufus.ie&quot;&gt;Rufus&lt;/a&gt; 去制作一个可以在 Mac 上正常使用的 WTG 盘。此外：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;WTG 支持 UEFI (GPT 格式磁盘) / BIOS (MBR 格式磁盘)。&lt;/li&gt;
+  &lt;li&gt;启动 WTG 时本机磁盘会处于脱机状态（可以绕过此限制）。&lt;/li&gt;
+  &lt;li&gt;对于启用了 UASP 协议的驱动器，断开连接后会直接蓝屏，而不是 60s 的重新连接窗口。&lt;/li&gt;
+  &lt;li&gt;休眠默认禁用（可以绕过此限制）。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;看起来很美好，不过你还是需要找一个存放 WTG 的容器。U 盘直接被我抛弃了，一个 CSGO + Windows 10 起码要占用 50G 的容量，而 128 GB 的 U 盘普遍是以 USB Type-A 3.0 速率传输的。主要考虑的还是 USB-C 的移动固态。我选购时，三星 T5 和西部数据的 pSSD 差不多都在 1.2 元/GB 的价格。&lt;/p&gt;
+
+&lt;p&gt;但问题来了，pSSD 的写入速度在 500-600 MBps 左右。这是一个很奇怪的数字，我以为移动固态硬盘的速度会在接口上面，也就是 USB 3.1 Gen 2（它的速度上限是 10 Gbps，也就是 1280 MBps）。但三星 T5 写入 540 MBps 的速度只有 3.1 Gen 2 的一半。搜了一下拆解，这采用的是 mSATA 转 USB 3.1 Gen 2 的方案，mSATA 的速度上线是 6 Gbps。如果用 USB 3.1 Gen 1（也就是 USB 3.0）会被转接出的接口速度限制住 (5 Gbps)。所以这些移动固态厂商选择了 mSATA 转 USB 3.1 Gen 2 的方案。而且现在随着存储类价格上涨，pSSD 比我当时看的价格有 100 元左右的涨幅。&lt;/p&gt;
+
+&lt;p&gt;所以我的打算是自己买一块 M.2 NVMe 的固态，套上 USB 3.1 Gen 2 的盒子。我选择的是一款 SSK 的金属盒子，￥120。随附  USB-C to USB-C/USB-A 的两根线缆和 3M 的导热贴。持续使用时散热表现尚可，不会像 MBP 本体散热口处那样烫手。&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://tva1.sinaimg.cn/large/00831rSTgy1gd1qokzi87j319b0u0kjm.jpg&quot; alt=&quot;KEV_1868 copy&quot; /&gt;&lt;br /&gt;硬盘方面，即使不看三星 970 Plus Pro 这种，NVMe 的固态也可以跑到 10 Gbps 朝上，不过这样一来接口（USB 3.1 Gen 2, 10 Gbps）又成为了速度的瓶颈。选择太快（=贵）的硬盘就没有必要。我选择的是 WD Black 250GB，￥430。装上盒子后用 BMD 的软件跑了一下读写速度，作为对比的是 MacBook Pro 的 512GB 内建固态。&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://tva1.sinaimg.cn/large/00831rSTgy1gd1r0b4rgwj30u00ux1kx.jpg&quot; alt=&quot;Screen Shot 2020-03-12 at 11.45.55 AM&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://tva1.sinaimg.cn/large/00831rSTgy1gd1r0eg6sjj30u00ux1kx.jpg&quot; alt=&quot;Screen Shot 2020-03-12 at 11.43.43 AM&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;安装 WTG 的过程已经有很多的参考文档。你完全可以根据少数派的&lt;a href=&quot;https://sspai.com/post/44699&quot;&gt;这篇&lt;/a&gt;针对 Mac 的 WTG 配置指南来进行操作，但 MacBook Pro 2018 有所特殊，我将根据我的实践简要地复现一下自己的步骤。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;准备 Windows 10 的企业版镜像和对应的 Boot Camp 驱动（打开 Boot Camp 助理，顶部菜单 “Action” &amp;gt; “Download Windows Support Software”）。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;通过工具刷入 Windows To Go。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;（这一步仅需要配备 T2 安全芯片的 Mac 操作）重启 Mac，按住 Command+R 进入 Recovery Mode。菜单栏中选取 “实用工具”&amp;gt;“启动安全性实用工具”。把「安全启动」值设为「无安全性」，「外部启动」值设为「允许从外部介质启动」。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;重启 Mac，按住 option，选择 EFI boot。插入有线键盘和有线鼠标（如果你熟练掌握 tab 键可以不需要鼠标）。WTG 会自动完成安装并自动重启，第一次重启要按住 option 选择 EFI boot 进入 WTG。之后会默认从上次引导项启动。&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://tva1.sinaimg.cn/large/00831rSTgy1gd1s9ikkeej31ek0u0b2b.jpg&quot; alt=&quot;image-20200321194022542&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;安装预先准备好的 Boot Camp 驱动。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;最崩溃的就是这个 Boot Camp 驱动（6.1 版本）。装到「Apple USB 虚拟主机控制器」会卡住，内建键盘和 Touch Bar 会失灵。&lt;a href=&quot;https://bbs.luobotou.org/thread-44991-1-1.html&quot;&gt;有说法&lt;/a&gt;是把 drivers/Apple/AppleUSBVHCI 这个文件夹先移走，装完后再单独安装。我大力出奇迹，暴力拔盘，强行重启。其实也可以用有线的外接键盘开出 cmd，”shundown -r -t 5”。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://tva1.sinaimg.cn/large/00831rSTgy1gd1s8kpb4yj316p0u07wi.jpg&quot; alt=&quot;IMG_4060&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;我的 2018 款 MBP 刚入手的时候 macOS 下扬声器有破音（具体我有拍在 vlog 里面），后来被修复了。没有想到在 Windows 下这个 Cirrus Logic 芯片引起的问题还是没有完全解决。Windows Update 推送的 Apple-MEDIA 驱动更新好像也没有什么作用。这个疑似无解，最好插耳机。&lt;/p&gt;
+
+&lt;p&gt;看起来没有问题了。于是我开心地打了几天枪，甚至发现可以流畅玩盗版的 Forza Horizon 4。悲惨的事情发生了。在某次启动后，Apple Software Update 检测到了 6.1.10 版本的 Boot Camp 驱动更新，包含了对 Pro Display XDR 的更新 blahblah。&lt;/p&gt;
+
+&lt;p&gt;安装到一半死机了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://tva1.sinaimg.cn/large/00831rSTgy1gd1sajtr2kj30w00u01l0.jpg&quot; alt=&quot;image-20200321194121898&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;强行重启后发现 Touch Bar 不亮了，显卡驱动从红色的 AMD 图标（右键桌面显示 AMD Radeon Settings）变成了 Pro 版本的蓝色 AMD 驱动（右键桌面显示 AMD Radeon Pro and AMD FirePro Advanced Settings）。也不是很影响使用。但我趁半价入正了 Horizon 4，却因为装过盗版没法安装正版。这是很没法接受的事情，所以我用设置里的重置 Windows 功能抹了一遍。可以正常下载了，但 AMD 驱动和 Apple Software Update 不见了，Boot Camp 驱动也装不上。只好重新刷入了崭新的 WTG 环境，并苟在 6.1 版本 BC 驱动。起码可以 1080p 流畅地平线 4 以及中画质稳定 120 fps CSGO。不怕费事的可以试 AMD 给的这个新版 &lt;a href=&quot;https://www.amd.com/zh-hant/support/kb/release-notes/apple-boot-camp&quot;&gt;BC 显卡驱动&lt;/a&gt;，卵更大的可以试这个&lt;a href=&quot;https://www.bootcampdrivers.com/&quot;&gt;鸡血版民间驱动&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;现在我可以玩游戏了。&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>如果你在淘宝卖进口唱片</title>
@@ -36,23 +143,25 @@
 &lt;meta property=&quot;twitter:image&quot; content=&quot;https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png&quot; /&gt;
 &lt;/head&gt;
 
-&lt;p&gt;这周初我发现淘宝购物车里面几张「Tokyo Chuo-Line」的唱片失效了。简单说：TCL，东京中央线，是一支日本的爵士乐队，获得过金曲奖的提名。虽然在大陆的知名度相对不是很高，但音乐本身质量很不错。他们没有出品过黑胶格式的唱片，CD 也没有绝版的迹象。本人由于穷，在收藏唱片中会把更加容易退出流通或者更容易被炒起来的唱片放在最高的优先级。TCL 的唱片在这种取向下就只能往后稍稍。&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;这周初我发现淘宝购物车里面几张「Tokyo Chuo-Line」的唱片失效了。简单说：TCL，东京中央线，是一支日本的爵士乐队，获得过金曲奖的提名。虽然在大陆的知名度相对不是很高，但音乐本身质量很不错。他们没有出品过黑胶格式的唱片，CD 也没有绝版的迹象。本人由于穷，在收藏唱片中会把更加容易退出流通或者更容易被炒起来的唱片放在最高的优先级。TCL 的唱片在这种取向下就只能往后稍稍。&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://tva1.sinaimg.cn/large/0082zybpgy1gbxa9epvklj30w40u01a2.jpg&quot; alt=&quot;IMG_0775&quot; style=&quot;zoom:33%;&quot; align=&quot;center&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;不过我是知道 TCL 为香港反送中运动发过声的（他们在 Facebook 上明确表态过），被盯上也不是没有可能。2019 年我们先后见证了李志和 my little airport 被封杀，多一个 TCL 也不会太令人惊讶。但我很快就得知这是淘宝针对进口唱片店铺的新一轮整风运动的成果，很多店被一锅端。指望审查者是听过/听说过 TCL 这样的小众艺术家后去精准打击是不现实的，淘宝大概是算准境外艺术家反贼比例会比较大，发挥了一刀切的传统艺能。btw, 受众极广的反贼，比如李志，待遇是会更加出众的。不仅要下架，淘宝闲鱼豆瓣都要禁止相关关键词显示结果。&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;!--excerpt--&gt;不过我是知道 TCL 为香港反送中运动发过声的（他们在 Facebook 上明确表态过），被盯上也不是没有可能。2019 年我们先后见证了李志和 my little airport 被封杀，多一个 TCL 也不会太令人惊讶。但我很快就得知这是淘宝针对进口唱片店铺的新一轮整风运动的成果，很多店被一锅端。指望审查者是听过/听说过 TCL 这样的小众艺术家后去精准打击是不现实的，淘宝大概是算准境外艺术家反贼比例会比较大，发挥了一刀切的传统艺能。(btw, 受众极广的反贼，比如李志，待遇是会更加出众的。不仅要下架，淘宝闲鱼豆瓣都要禁止相关关键词显示结果。)&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;在淘宝上买碟，会知道很长一段时间以来，是看不见一些碟上架的，只好加微信。有幸目睹老板们这两天已经轮流出来骂街。以下精选内容截自微信朋友圈：&lt;/p&gt;
+&lt;p&gt;在淘宝上买碟，会知道很长一段时间以来，是看不见一些碟上架的，只好加微信。有幸目睹老板们这两天已经轮流出来骂街。以下精选内容截自微信朋友圈：&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://tva1.sinaimg.cn/large/0082zybpgy1gbxazd73hej311x0u04qp.jpg&quot; alt=&quot;IMG_0733&quot; style=&quot;zoom:50%;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;「开年第一天，疫情当前惨烈，各行各业即将迎来隆冬，艺文管控也是空前禁收，看这趋势连给大家精神放松的空隙都准备不再留了。」说这话的門唱片主理人谢江川，已经苦苦支持了很多年。門唱片，和比如独音唱片，特别的地方在于他们有实体店，而且他们的实体空间作用不仅是给人一个买碟的地方，也是有乐队参与进来，构成一个更加完整的音乐空间。他们还会参与很多独立音乐人的唱片发行工作。对这些有实体店的店铺来说，网店被关，相当一部分的客流会损失，也许不致命。但你说不准哪一天会不会有人上门去店里翻箱倒柜，找茬说某人的某作品有害社会，把店封了。&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;「开年第一天，疫情当前惨烈，各行各业即将迎来隆冬，艺文管控也是空前禁收，看这趋势连给大家精神放松的空隙都准备不再留了。」说这话的門唱片主理人谢江川，已经苦苦支持了很多年。門唱片，和比如独音唱片，特别的地方在于他们有实体店，而且他们的实体空间作用不仅是给人一个买碟的地方，也是有乐队参与进来，构成一个更加完整的音乐空间。他们还会参与很多独立音乐人的唱片发行工作。对这些有实体店的店铺来说，网店被关，相当一部分的客流会损失，也许不致命。但你说不准哪一天会不会有人上门去店里翻箱倒柜，找茬说某人的某作品有害社会，把店封了。&lt;/p&gt;
 
-&lt;p&gt;爱音乐的人会觉得现实很荒谬，但现实就是这样不乐观。即使你看好风向及时下架被封杀的艺人，侥幸逃过一次次的围剿，你还是要吃饭吧？用爱发电是活不下去的。「台湾的售价里面，5%是版税，20-30%是零售商的利润，20%是生产成本，其余是唱片公司收益。」一张黑胶赚四五十，一张 CD 赚二三十。按照我们这个市场的受众数量计算，一家店一个月能赚多少不会是一个太乐观的数字。疫情进行时，我很喜欢的一家店「熔合音乐」今天下午五点发出了被迫清仓的信息：中古碟全新碟一律七折，以后不再做黑胶唱片。他们的实体店我没有去过，单就淘宝店来说。唱片展示、信息提供和快递的保护方面，熔合做得是最好的。他们也不会随便乱标价（骂的就是你，北京 Li-Pi 唱片）。&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;爱音乐的人会觉得现实很荒谬，但现实就是这样不乐观。即使你看好风向及时下架被封杀的艺人，侥幸逃过一次次的围剿，你还是要吃饭吧？用爱发电是活不下去的。「台湾的售价里面，5%是版税，20-30%是零售商的利润，20%是生产成本，其余是唱片公司收益。」一张黑胶赚四五十，一张 CD 赚二三十。按照我们这个市场的受众数量计算，一家店一个月能赚多少不会是一个太乐观的数字。疫情进行时，我很喜欢的一家店「熔合音乐」今天下午五点发出了被迫清仓的信息：中古碟全新碟一律七折，以后不再做黑胶唱片。他们的实体店我没有去过，单就淘宝店来说。唱片展示、信息提供和快递的保护方面，熔合做得是最好的。他们也不会随便乱标价（骂的就是你，北京 Li-Pi 唱片）。&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://tva1.sinaimg.cn/large/0082zybpgy1gbxccrl362j30v20h8ju1.jpg&quot; alt=&quot;image-20200215200717414&quot; style=&quot;zoom:50%;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;坦率地说，我因为有很糟糕的理财理念和消费习惯，是个没积蓄的学生，开不了学意味着没有生活费。但还是东拼西凑了几百块钱，带着兔死狐悲的心情买了几张，完全没有捡到便宜的快乐。追逐梦想很困难，对另一部分人来说则更加的难。中国大陆唱片业者大概就是险象环生，艰难求生，前有堵截，后有追兵，脚下的土壤也不够坚实。我鼓励大家在流媒体当道的时代或多或少继续消费实体音乐。因为这些唱片店，不管是线上还是线下，构成了我们这个神奇的国家音乐生态中看不见但很重要的一部分，他们应该活得比现在更好，让我们一起砸钱来投票。&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;坦率地说，我因为有很糟糕的理财理念和消费习惯，是个没积蓄的学生，开不了学意味着没有生活费。但还是东拼西凑了几百块钱，带着兔死狐悲的心情买了几张，完全没有捡到便宜的快乐。追逐梦想很困难，对另一部分人来说则更加的难。中国大陆唱片业者大概就是险象环生，艰难求生，前有堵截，后有追兵，脚下的土壤也不够坚实。我鼓励大家在流媒体当道的时代或多或少继续消费实体音乐。因为这些唱片店，不管是线上还是线下，构成了我们这个神奇的国家音乐生态中看不见但很重要的一部分，他们应该活得比现在更好，让我们一起砸钱来投票。&lt;/p&gt;
 
 </content>
  </entry>
