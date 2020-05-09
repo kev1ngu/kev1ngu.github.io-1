@@ -25,11 +25,11 @@ blog 起初想起名 B-Side of Kevin Gu，那个名字留给 [Telegram Channel](
 
 *Links 链接*
 
-[royink li](royink.li)
+[royink li](https://royink.li)
 
 [Mivansaka](http://mivansaka.xyz)
 
-[Lasagna Chenn](nlasagna.github.io)
+[Lasagna Chenn](https://nlasagna.github.io)
 
 [The Sociologist](https://sociologist.xyz)
 
