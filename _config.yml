@@ -6,8 +6,8 @@ permalink:           pretty
 # Setup
 title:               I Miss Cover Flow
 tagline:             'Kevin Gu'
-description:         'Reaching out for ultimate simplicity, at 33 1/3 rpm. Written by <a href="https://twitter.com/kev1ngu" target="_blank">Kevin Gu</a>.'
-url:                  https://imisscoveflow.xyz
+description:         'Reaching out for the ultimate simplicity, at 33 1/3 rpm. Written by <a href="https://twitter.com/kev1ngu" target="_blank">Kevin Gu</a>.'
+url:                  https://imisscoverflow.xyz
 baseurl:             
 gems:                [jekyll-paginate]
 paginate:            5
@@ -19,4 +19,4 @@ author:
   email:             wxkevingu@gmail.com
 
 # Custom vars
-version:             0.2
+version:             0.3
